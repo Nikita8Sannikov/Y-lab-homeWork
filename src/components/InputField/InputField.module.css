@@ -1,0 +1,33 @@
+.inputField {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputLabel {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+.inputError {
+  border-color: #ff4d4f;
+}
+
+.errorMessage {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #ff4d4f;
+}
